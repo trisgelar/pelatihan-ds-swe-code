@@ -62,7 +62,7 @@ platform_numeric = st.selectbox("Platform:", options=list(platform_mapping.keys(
 severity_level_numeric = st.selectbox("Severity Level:", options=list(severity_level_mapping.keys()))
 
 # Prediksi
-if st.button("Prediksi")
+if st.button("Prediksi"):
     # Buat input data untuk prediksi
     input_data = pd.DataFrame({
         'Hour of Day': [hour_of_day],
